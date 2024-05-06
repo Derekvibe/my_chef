@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Libre Baskerville';
+}
+
+.HeroPage {
+    background-image: url(/public/Images/HeroBg.png);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+}
+
+.MenuTwo {
+  background-image: url(/public/Images/MenuTwoBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.MenuBg {
+  background-image: url('/public/Images/MenuTwo.png');
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* .MenuThree {
+  margin: auto;
+} */
+
+.NextBg {
+  background-image: url('/public/Images/image3.png');
+  background-size: cover;
+}
+
+
+
+
+/* Custom media query for xsmall screens */
+@media screen and (max-width: 640px) {
+
+  .HeroMain h1 {
+      font-size: 28px;
+      line-height: 35px;
+    }
+
+  .Clicker{
+    display: flex;
+    flex-direction: column;
+  }
+}
